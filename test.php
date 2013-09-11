@@ -5,7 +5,10 @@ $var = "Dom";
 if($var == "Dom"){
  echo "Senior Developer"
 }
-else{
+else if($var == "Ben"){
 echo "Developer";
+}
+else{
+	echo "Junior Developer";
 }
 ?>
